@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Nessim Elmir</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <!-- ===== Google Fonts (2 seulement) ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- ===== Favicon : Orange de Berkane ===== -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- ===== HEADER / NAVIGATION ===== -->
+    <!-- ===== HEADER ===== -->
     <header>
         <div class="container">
             <nav>
-                <div class="logo">
-                    Nessim Elmir
-                </div>
+                <div class="logo">Nessim Elmir</div>
                 <ul class="nav-links">
                     <li><a href="#about">À propos</a></li>
                     <li><a href="#skills">Compétences</a></li>
@@ -26,45 +34,45 @@
         </div>
     </header>
 
-    <!-- ===== HERO SECTION ===== -->
+    <!-- ===== HERO ===== -->
     <section class="hero">
         <div class="container">
             <h1>Étudiant en informatique</h1>
             <p>
-                Étudiant à HETIC, passionné par le développement web et la création
-                d’interfaces modernes et efficaces.
+                Étudiant à HETIC, passionné par le développement web et
+                la création d’interfaces modernes et efficaces.
             </p>
             <a href="#projects" class="cta-button">Découvrir mes projets</a>
         </div>
     </section>
 
-    <!-- ===== ABOUT SECTION ===== -->
+    <!-- ===== ABOUT ===== -->
     <section class="about" id="about">
         <div class="container">
             <h2 class="section-title">À propos de moi</h2>
 
             <div class="about-content">
                 <div class="about-image">
-                    <img src="https://via.placeholder.com/400x400" alt="Photo de profil">
+                    <!-- 👉 REMPLACE PAR TA PHOTO (ex: images/nessim.jpg) -->
+                    <img src="images/ta-photo.jpg" alt="Photo de Nessim Elmir">
                 </div>
 
                 <div class="about-text">
                     <h2>Qui suis-je ?</h2>
                     <p>
                         Je m’appelle Nessim Elmir et je suis étudiant en informatique à HETIC.
-                        Je m’intéresse particulièrement au développement web et au design
-                        d’interfaces propres et modernes.
+                        Je m’intéresse au développement web et au design moderne.
                     </p>
                     <p>
-                        Mon objectif est de progresser continuellement, renforcer mes compétences
-                        techniques et travailler sur des projets concrets au fil de mon parcours.
+                        Ce portfolio est un projet scolaire qui évoluera au fur et à mesure
+                        de mon apprentissage et de mes futurs projets.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ===== SKILLS SECTION ===== -->
+    <!-- ===== SKILLS ===== -->
     <section class="skills" id="skills">
         <div class="container">
             <h2 class="section-title">Mes compétences</h2>
@@ -73,31 +81,25 @@
                 <div class="skill-card">
                     <div class="skill-icon">🌐</div>
                     <h3>HTML</h3>
-                    <p>
-                        Création de structures web claires, sémantiques et bien organisées.
-                    </p>
+                    <p>Structuration propre et sémantique des pages web.</p>
                 </div>
 
                 <div class="skill-card">
                     <div class="skill-icon">🎨</div>
                     <h3>CSS</h3>
-                    <p>
-                        Mise en page moderne, responsive design et styles inspirés des standards actuels.
-                    </p>
+                    <p>Mise en page moderne, responsive et animations fluides.</p>
                 </div>
 
                 <div class="skill-card">
                     <div class="skill-icon">⚙️</div>
                     <h3>En apprentissage</h3>
-                    <p>
-                        De nouvelles technologies et projets arriveront très bientôt.
-                    </p>
+                    <p>Nouvelles technologies et projets à venir.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ===== PROJECTS SECTION ===== -->
+    <!-- ===== PROJECTS ===== -->
     <section class="projects" id="projects">
         <div class="container">
             <h2 class="section-title">Mes projets</h2>
@@ -108,8 +110,8 @@
                     <div class="project-content">
                         <h3>Projets à venir</h3>
                         <p>
-                            Je travaille actuellement sur mes premiers projets.
-                            Ils seront ajoutés ici très prochainement.
+                            Je travaille actuellement sur mes premiers projets
+                            qui seront ajoutés prochainement.
                         </p>
                         <a href="#" class="project-link">Bientôt disponible →</a>
                     </div>
@@ -118,9 +120,9 @@
                 <div class="project-card">
                     <div class="project-image">Soon</div>
                     <div class="project-content">
-                        <h3>Nouveaux projets</h3>
+                        <h3>Portfolio évolutif</h3>
                         <p>
-                            Cette section évoluera avec mon apprentissage et mon expérience.
+                            Cette section évoluera avec mon parcours à HETIC.
                         </p>
                         <a href="#" class="project-link">À venir →</a>
                     </div>
@@ -129,28 +131,28 @@
         </div>
     </section>
 
-    <!-- ===== CONTACT SECTION ===== -->
+    <!-- ===== CONTACT ===== -->
     <section class="contact" id="contact">
         <div class="container">
             <h2>Me contacter</h2>
 
             <form class="contact-form">
                 <div class="form-group">
-                    <label for="name">Votre nom</label>
-                    <input type="text" id="name" name="name">
+                    <label>Votre nom</label>
+                    <input type="text">
                 </div>
 
                 <div class="form-group">
-                    <label for="email">Votre email</label>
-                    <input type="email" id="email" name="email">
+                    <label>Votre email</label>
+                    <input type="email">
                 </div>
 
                 <div class="form-group">
-                    <label for="message">Votre message</label>
-                    <textarea id="message" name="message"></textarea>
+                    <label>Votre message</label>
+                    <textarea></textarea>
                 </div>
 
-                <button type="submit" class="submit-button">Envoyer</button>
+                <button class="submit-button">Envoyer</button>
             </form>
         </div>
     </section>
@@ -158,33 +160,8 @@
     <!-- ===== FOOTER ===== -->
     <footer>
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>À propos</h3>
-                    <p>
-                        Étudiant en informatique à HETIC, passionné par le développement web.
-                    </p>
-                </div>
-
-                <div class="footer-section">
-                    <h3>Liens rapides</h3>
-                    <p><a href="#about">À propos</a></p>
-                    <p><a href="#projects">Projets</a></p>
-                    <p><a href="#contact">Contact</a></p>
-                </div>
-
-                <div class="footer-section">
-                    <h3>Suivez-moi</h3>
-                    <div class="social-links">
-                        <a href="#">🐙</a>
-                        <a href="#">💼</a>
-                        <a href="#">🐦</a>
-                    </div>
-                </div>
-            </div>
-
             <div class="footer-bottom">
-                © 2025 Nessim Elmir. Tous droits réservés.
+                © 2025 Nessim Elmir — Projet scolaire HETIC
             </div>
         </div>
     </footer>
